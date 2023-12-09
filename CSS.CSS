@@ -1,0 +1,50 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#first
+{
+    background-image: linear-gradient(blue,rgb(224, 85, 201));
+}
+#heading
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:80px ;
+}
+#list
+{
+    background-color: black;
+}
+ul{
+    display: inline-block;
+
+}
+ul li
+{
+    display: inline-block;
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left:120px;
+    padding:12px ;
+    font-weight: 500;
+    color: white;
+    
+}
+li:hover
+{
+      background-color: rgb(255, 238, 0);
+      transition: 0.7s;
+      color: red;
+
+}
+#image{
+
+    height:200px;
+    width:1550px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

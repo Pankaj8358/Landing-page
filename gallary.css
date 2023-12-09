@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#heading
+{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: dashed;
+
+}
+#folder
+{
+    display: flex;
+    
+}
+#folder div{
+    height:700px;
+    width: 500px;
+    background-color:rgb(56, 153, 233);
+    margin-left:7px;
+    border-radius:10px;
+}
+#folder div:hover
+{
+    transform:scale(20px);
+    filter: drop-shadow(0px 0px 10px);
+    transition: 0.3s;
+}
+button{
+        padding:15px;
+        text-align: center;
+        margin-left:140px;
+        width:150px;
+        border-radius: 20px 0px 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 800;
+}
+button:hover
+{
+    background-color:rgb(238, 133, 34);
+    transition:0.7s;
+}
+/* text desigh */
+#folder div p{
+    font-size: larger;
+}
+
